@@ -1,5 +1,5 @@
 {
-    "Acknowledgements": "The authors would like to thank Noah C. Benson for his assistance with the retinotopy analysis. . They would also like to thank Shenglong Wang and the NYU HPC team for assistance in running this analysis on the NYU HPC cluster, as well as Shenglong Wang, Vicky Rampin, R\\'emi Rampin, Pablo Velasco, Deb Verhoff, and Kate Pechekhonova for assistance in sharing the data, code, and computational environment for this project. They would also like to acknowledge the following funding sources: NSF GRFP (WFB), HHMI (EPS), the Simons Foundation (EPS), NIH R01EY027401 (JW), and NIH R01EY027964 (JW).",
+    "Acknowledgements": "The authors would like to thank Noah C. Benson for his assistance with the retinotopy analysis. . They would also like to thank Shenglong Wang and the NYU HPC team for assistance in running this analysis on the NYU HPC cluster, as well as Shenglong Wang, Vicky Rampin, Remi Rampin, Pablo Velasco, Deb Verhoff, and Kate Pechekhonova for assistance in sharing the data, code, and computational environment for this project. They would also like to acknowledge the following funding sources: NSF GRFP (WFB), HHMI (EPS), the Simons Foundation (EPS), NIH R01EY027401 (JW), and NIH R01EY027964 (JW).",
     "Authors": [
         "William F. Broderick",
         "Jonathan Winawer",
