@@ -6,7 +6,7 @@
         "Eero P. Simoncelli"
     ],
     "BIDSVersion": "1.6.0",
-    "DatasetDOI": "TODO: eventually a DOI for the dataset",
+    "DatasetDOI": "doi:10.18112/openneuro.ds003812.v1.1.0",
     "Funding": [
         "GRANT NIH R01EY027401 (JW)",
         "GRANT NIH R01EY027964 (JW)",
