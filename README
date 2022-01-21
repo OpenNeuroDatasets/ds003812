@@ -4,7 +4,7 @@ This `spatial_frequency_preferences` dataset contains the data from the paper
 "Mapping Spatial Frequency Preferences Across Human Primary Visual Cortex", by
 William F. Broderick, Eero P. Simoncelli, and Jonathan Winawer, the preprint for
 which can be found on
-[biorix](https://www.biorxiv.org/content/10.1101/2021.09.27.462032).
+[biorxiv](https://www.biorxiv.org/content/10.1101/2021.09.27.462032).
 
 In this experiment, we measured the BOLD responses of 12 human observers to a
 set of novel grating stimuli in order to measure the spatial frequency tuning in
