@@ -2,7 +2,9 @@
 
 This `spatial_frequency_preferences` dataset contains the data from the paper
 "Mapping Spatial Frequency Preferences Across Human Primary Visual Cortex", by
-William F. Broderick, Eero P. Simoncelli, and Jonathan Winawer. **ADD** **LINK**
+William F. Broderick, Eero P. Simoncelli, and Jonathan Winawer, the preprint for
+which can be found on
+[biorix](https://www.biorxiv.org/content/10.1101/2021.09.27.462032).
 
 In this experiment, we measured the BOLD responses of 12 human observers to a
 set of novel grating stimuli in order to measure the spatial frequency tuning in
@@ -15,14 +17,17 @@ orientation.
 This dataset contains the minimally pre-processed, BIDS-compliant data required
 to reproduce the analyses presented in the paper. In addition to the task
 imaging data and stimuli files, it contains three `derivatives` directories:
+
 - `freesurfer`: freesurfer subject directories for each subject, with one
   change: the contents of `mri/` directories have been defaced.
+
 - `prf_solutions`: solutions to the population receptive field models from a
   separate retinotopy experiment for each subject, fit using
   [VistaSoft](https://github.com/vistalab/vistasoft). Also contains the Benson
   retinotopic atlases for each subject (Benson et al., 2014) and the solutions
   for Bayesian retinotopic analyses (Benson and Winawer, 2018) -- the solutions
   to the Bayesian retinotopy are what we actually use in the paper.
+
 - `preprocessed`: the preprocessed data (a custom script was used for
   preprocessing, found on the [Winawer Lab
   Github](https://github.com/WinawerLab/MRI_tools/), see [Winawer Lab
@@ -39,22 +44,25 @@ there are no guarantees.
 
 ## Details related to access to the data
 
+Contact person: William F. Broderick, ORCID 0000-0002-8999-9003, wfb229@nyu.edu
+
 If you use this dataset in a publication, please cite the corresponding paper.
 
-- Contact person: William F. Broderick, ORCID 0000-0002-8999-9003, wfb229@nyu.edu
-
 This dataset is hosted on OpenNeuro, and can be downloaded from there.
-Additionally, we present two additional variants of this data, both hosted on
-this project's [OSF page](https://osf.io/afs85/):
+Additionally, we present two additional variants of this data, see the [Github
+README](https://github.com/billbrod/spatial-frequency-preferences) for details
+on how to obtain:
+
 - Fully-processed data: contains the final output of our analyses, the data
   required to reproduce the figures as they appear in the paper. 
+
 - Partially-processed data: contains the outputs of GLMdenoise and all data
   required to start fitting the spatial frequency response functions.
   
-Both data sets build on top of this one and so require the data contained here
-as well.
+The partially-processed data set builds on top of this one and so requires the
+data contained here as well, while fully-processed stands alone.
   
-All three of these variants may be downloaded using code found in the [Github
+All of the variants may be downloaded using code found in the [Github
 repo](https://github.com/billbrod/spatial-frequency-preferences), see the README
 there for more details.
 
@@ -69,12 +77,11 @@ there for more details.
 - Brief overview of the tasks in the experiment: subjects viewed the stimuli,
   fixating on the center of the images. A sequence of digits, alternating black
   and white, was presented at fixation; subjects pressed a button whenever a
-  digit repeated. The behavioral data was not presented in the paper and so is
-  not present here. See paper for more details.
+  digit repeated. See paper for more details.
 
 - Description of the contents of the dataset:
   - Summary:
-    - 767 Files
+    - 768 Files
     - 12 subjects
     - 1 session each
   - Available tasks: 
@@ -112,6 +119,8 @@ This experiment has only a single task.
 Subjects passively viewed the stimuli while performing the distractor task
 described above: viewing a stream of alternating black and white digits and
 pressing a button whenever a digit repeated. Their button presses were recorded.
+Each subject's `events.tsv` files gives the behavioral results ("hit", "miss",
+"correct_rejection", or "false_alarm").
 
 ### Additional data acquired
 

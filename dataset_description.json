@@ -17,8 +17,7 @@
     "License": "CC0",
     "Name": "spatial_frequency_preferences",
     "ReferencesAndLinks": [
-        "Paper link: forthcoming",
-        "Github repo with all project code (use for reproducing analyses presented in paper and re-analyzing this dataset): https://github.com/billbrod/spatial-frequency-preferences",
-        "OSF project containing miscellaneous files: https://osf.io/afs85/"
+        "Preprint link: https://www.biorxiv.org/content/10.1101/2021.09.27.462032",
+        "Github repo with all project code (use for reproducing analyses presented in paper and re-analyzing this dataset): https://github.com/billbrod/spatial-frequency-preferences"
     ]
 }
