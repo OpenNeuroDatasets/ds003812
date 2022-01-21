@@ -6,7 +6,7 @@
         "Eero P. Simoncelli"
     ],
     "BIDSVersion": "1.6.0",
-    "DatasetDOI": "10.18112/openneuro.ds003812.v1.0.0",
+    "DatasetDOI": "TODO: eventually a DOI for the dataset",
     "Funding": [
         "GRANT NIH R01EY027401 (JW)",
         "GRANT NIH R01EY027964 (JW)",
@@ -14,7 +14,7 @@
         "HHMI (EPS)"
     ],
     "HowToAcknowledge": "If you use this dataset, please cite both the data set (using the DatasetDOI in this file) and the corresponding paper (as given in ReferencesandLinks).",
-    "License": "CC0",
+    "License": "PDDL",
     "Name": "spatial_frequency_preferences",
     "ReferencesAndLinks": [
         "Paper link: forthcoming",
