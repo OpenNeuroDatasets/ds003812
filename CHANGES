@@ -1,4 +1,4 @@
-2.0.0 2024-09-23
+2.0.0 2024-09-27
   - Updates stimuli/task-sfprescaled_presented_frequencies.csv and stimuli/task-sfprescaled_stim_description.csv.
   - All w_a values in both values have been replaced with their negative (e.g., 6.0 -> -6.0, -6.0 -> 6.0).
   - This reflects a bug found in the code for the creation of the stimuli, setting of the voxel population receptive field retinotopic angle, and calculation of stimulus orientation.
